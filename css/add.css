@@ -1,0 +1,226 @@
+#addbotton {
+    position: relative;
+    display: none;
+}
+.upText {
+    text-transform: uppercase;
+}
+.addbg {
+    position: absolute;
+    right: 1.5em;
+    top: 0.5em;    
+    padding: 1em;
+    padding-right: 5.3em;
+    font-size: 14px;
+    color: white;
+    background: url('../images/addbtn_bg.png') no-repeat;
+    z-index: 999;
+} 
+#addbotton .addbg .btnLink {
+    margin-left: 10px;
+}
+.r-addbg {
+    position: absolute;
+    left: 0.8em;
+    top: 0.05em;    
+    padding: 1em;
+    padding-left: 8.9em;
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    background: url('../images/addbtnright_bg.png') no-repeat;
+    background-size: 100%;
+} 
+#addbotton .r-addbg .btnLink {
+    padding-top: 0px;
+    margin-left: -3em;
+    position: absolute;
+}
+a.change-hover:hover {
+    -webkit-transition: all 0.2s ease-in-out;                  
+    -moz-transition: all 0.2s ease-in-out;                 
+    -o-transition: all 0.2s ease-in-out;   
+    -ms-transition: all 0.2s ease-in-out;          
+    transition: all 0.2s ease-in-out;
+}
+#addbotton .firstadd {
+    position: absolute;
+}
+#addbotton .firstadd .faddbg {
+    left: 27.5%;
+    top: 3.5%; 
+}
+.firstadd a.change-hover {
+    background: url('../images/addbutton/firstadd-button.png') no-repeat;
+    padding: 0 10px;
+}
+.firstadd a.change-hover:hover {
+    background: url('../images/addbutton/firstadd-button-hover.png') no-repeat !important; 
+}
+#addbotton .secondadd {
+    position: absolute;
+}
+#addbotton .secondadd .saddbg {
+    left: 21.1%;
+    top: 14%; 
+}
+.secondadd a.change-hover {
+    background: url('../images/addbutton/secondadd-button.png') no-repeat;
+    padding: 0 12px;
+}
+.secondadd a.change-hover:hover {
+    background: url('../images/addbutton/secondadd-button-hover.png') no-repeat !important;
+}
+#addbotton .thirdadd {
+    position: absolute;
+}
+#addbotton .thirdadd .taddbg {
+    left: 16.1%;
+    top: 27%;    
+}
+.thirdadd a.change-hover {
+    background: url('../images/addbutton/thirdadd-button.png') no-repeat;
+    padding: 0 14px;
+}
+.thirdadd a.change-hover:hover {
+    background: url('../images/addbutton/thirdadd-button-hover.png') no-repeat !important;
+}
+#addbotton .fourthadd {
+    position: absolute;
+}
+#addbotton .fourthadd .faddbg {
+    left: 14.1%;
+    top: 41%;    
+}
+.fourthadd a.change-hover {
+    background: url('../images/addbutton/fourthadd-button.png') no-repeat;
+    padding: 0 12px;
+}
+.fourthadd a.change-hover:hover {
+    background: url('../images/addbutton/fourthadd-button-hover.png') no-repeat !important;
+}
+#addbotton .fifthadd {
+    position: absolute;
+}
+#addbotton .fifthadd .fiaddbg {
+    left: 14.4%;
+    top: 56%;    
+}
+.fifthadd a.change-hover {
+    background: url('../images/addbutton/fifthadd-button.png') no-repeat;
+    padding: 0 11px;
+}
+.fifthadd a.change-hover:hover {
+    background: url('../images/addbutton/fifthadd-button-hover.png') no-repeat !important;
+}
+#addbotton .sixthadd {
+    position: absolute;
+}
+#addbotton .sixthadd .siaddbg {
+    left: 16.1%;
+    top: 71%;    
+}
+.sixthadd a.change-hover {
+    background: url('../images/addbutton/sixthadd-button.png') no-repeat;
+    padding: 0 11px;
+}
+.sixthadd a.change-hover:hover {
+    background: url('../images/addbutton/sixthadd-button-hover.png') no-repeat !important;
+}
+#addbotton .seventhadd {
+    position: absolute;
+}
+#addbotton .seventhadd .seaddbg {
+    right: 8.7%;
+    top: 70.5%;    
+}
+.seventhadd a.change-hover {
+    background: url('../images/addbutton/seventhadd-button.png') no-repeat;
+    padding: 0 12px;
+}
+.seventhadd a.change-hover:hover {
+    background: url('../images/addbutton/seventhadd-button-hover.png') no-repeat !important;
+}
+#addbotton .eighthadd {
+    position: absolute;
+}
+#addbotton .eighthadd .eaddbg {
+    right: 6%;
+    top: 55.5%;    
+}
+.eighthadd a.change-hover {
+    background: url('../images/addbutton/eighthadd-button.png') no-repeat;
+    padding: 0 11px;
+}
+.eighthadd a.change-hover:hover {
+    background: url('../images/addbutton/eighthadd-button-hover.png') no-repeat !important;
+}
+#addbotton .ninthadd {
+    position: absolute;
+}
+#addbotton .ninthadd .naddbg {
+    right: 7%;
+    top: 38.5%;    
+}
+.ninthadd a.change-hover {
+    background: url('../images/addbutton/ninthadd-button.png') no-repeat;
+    padding: 0 10px;
+}
+.ninthadd a.change-hover:hover {
+    background: url('../images/addbutton/ninthadd-button-hover.png') no-repeat !important;
+}
+#addbotton .tenthadd {
+    position: absolute;
+}
+#addbotton .tenthadd .teaddbg {
+    right: 9.5%;
+    top: 20.5%;    
+}
+.tenthadd a.change-hover {
+    background: url('../images/addbutton/tenthadd-button.png') no-repeat;
+    padding: 0 12px;
+}
+.tenthadd a.change-hover:hover {
+    background: url('../images/addbutton/tenthadd-button-hover.png') no-repeat !important;
+}
+#addbotton .eleventhadd {
+    position: absolute;
+}
+#addbotton .eleventhadd .eaddbg {
+    right: 16.8%;
+    top: 6.4%;    
+}
+.eleventhadd a.change-hover {
+    background: url('../images/addbutton/eleventhadd-button.png') no-repeat;
+    padding: 0 12px;
+}
+.eleventhadd a.change-hover:hover {
+    background: url('../images/addbutton/eleventhadd-button-hover.png') no-repeat !important;
+}
+@media screen and (max-width: 800px) and (min-width:601px) {
+    .addbg {
+        position: fixed;
+        right: initial;
+        background: none;
+        top: -3%;
+        padding: 1em 2em;
+        font-size: 14px;
+        color: white;        
+        z-index: 999;
+    }  
+    .r-addbg {
+        position: fixed;
+        left: 15%;
+        top: 0;   
+        padding: 1em 2em;
+        font-size: 14px;
+        color: white;
+        text-align: right;
+        background: none;
+    } 
+    /*CSS 21/07/2016*/
+    #addbotton {
+        right: 25px !important;
+    }
+}
+

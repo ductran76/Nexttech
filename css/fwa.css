@@ -1,0 +1,44 @@
+
+#fwa {
+    position:fixed;
+    z-index:9999;
+}
+#fwa.left.top {
+    left:0px;
+    top:0px;
+}
+#fwa.right.top {
+    right:2em;
+    top:3em;
+}
+#fwa.left.bottom {
+    left:0px;
+    bottom:0px;
+}
+#fwa.right.bottom {
+    right:0px;
+    bottom:0px;
+}
+#fwa a {
+    display:block;
+    width:12em;
+    height:35px;
+    overflow:hidden;
+    font-size: 14px;
+}
+#fwa {
+    z-index: 0;
+    display: none;
+}
+@media screen and (max-width: 600px) and (min-width: 415px) {
+    #fwa.right.top {
+        top: 30%;
+        left: 40%;
+    }
+}
+@media (max-width: 767px) {
+    #fwa {
+        display: none;
+    }
+}
+

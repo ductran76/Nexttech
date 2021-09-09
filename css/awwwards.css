@@ -1,0 +1,145 @@
+#awwwards {
+    position:fixed;
+}
+#awwwards a:hover {
+    -webkit-transition: all 0.3s ease-in-out;                  
+    -moz-transition: all 0.3s ease-in-out;                 
+    -o-transition: all 0.3s ease-in-out;   
+    -ms-transition: all 0.3s ease-in-out;          
+    transition: all 0.3s ease-in-out;
+}
+#awwwards.left {
+    left:0px;
+}
+#awwwards a {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#awwwards a.btnfirst {
+    bottom: 7%;
+    left: 32%;
+    position: fixed;
+    background-image: url('../images/button1.png');
+    background-size: 100%;
+    padding: 15px 25px 19px 23px;
+    -webkit-transition: all 0.3s ease-in-out;                  
+    -moz-transition: all 0.3s ease-in-out;                 
+    -o-transition: all 0.3s ease-in-out;   
+    -ms-transition: all 0.3s ease-in-out;          
+    transition: all 0.3s ease-in-out;
+
+}
+#awwwards a.btnfirst:hover {
+    background: url('../images/button1_hover.png') no-repeat;
+    padding: 17px 25px 19px 23px;   
+    background-size: 100%;
+}
+#awwwards a.btnsecond {
+    bottom: 7%;
+    left: 48%;
+    position: fixed;
+    background: url('../images/button2.png') no-repeat;
+    background-size: 100%;
+    padding: 40px 38px 19px 30px;
+    -webkit-transition: all 0.3s ease-in-out;                  
+    -moz-transition: all 0.3s ease-in-out;                 
+    -o-transition: all 0.3s ease-in-out;   
+    -ms-transition: all 0.3s ease-in-out;          
+    transition: all 0.3s ease-in-out;
+}
+#awwwards a.btnsecond:hover {
+    background: url('../images/button2_hover.png') no-repeat;
+    padding: 42px 40px 19px 30px;
+    background-size: 100%;    
+}
+#awwwards a.btnthird {
+    bottom: 7%;
+    left: 64%;
+    position: fixed;
+    background: url('../images/button3.png') no-repeat;
+    background-size: 100%;
+    padding: 38px 32px 19px 35px;
+    -webkit-transition: all 0.3s ease-in-out;                  
+    -moz-transition: all 0.3s ease-in-out;                 
+    -o-transition: all 0.3s ease-in-out;   
+    -ms-transition: all 0.3s ease-in-out;          
+    transition: all 0.3s ease-in-out;
+}
+#awwwards a.btnthird:hover {
+    background: url('../images/button3_hover.png') no-repeat;
+    padding: 37px 30px 19px 35px;  
+    background-size: 100%;
+}
+#awwwards.right {
+    right:0px;
+}
+#awwwards  {
+        z-index: 0;
+        display: none;
+    }
+@media screen and (max-width: 414px) {
+    #awwwards a.btnfirst {
+        bottom: 20%;
+        left: 27%;
+    }
+    #awwwards a.btnsecond {
+        bottom: 5%;
+        left: 2%;
+    }
+    #awwwards a.btnthird {
+        bottom: 5%;
+        left: 51%;
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 415px) {
+    #fwa.right.top {
+        top: 30%;
+        left: 40%;
+    }
+    #awwwards a.btnfirst {
+        bottom: 30%;
+        left: 38%;
+    }
+    #awwwards a.btnsecond {
+        bottom: 15%;
+        left: 15%;
+    }
+    #awwwards a.btnthird {
+        bottom: 15%;
+        left: 60%;
+    }
+}
+@media screen and (max-width: 767px) {
+    #awwwards {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 768px) and (min-width:601px) {
+    #awwwards a.btnfirst {
+        bottom: 10%;
+        left: 10%;
+    }
+    #awwwards a.btnsecond {
+        bottom: 10%;
+        left: 37%;
+    }
+    #awwwards a.btnthird {
+        bottom: 10%;
+        left: 67%;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 769px) {    
+    #awwwards a.btnfirst {
+        bottom: 15%;
+        left: 15%;
+    }
+    #awwwards a.btnsecond {
+        bottom: 15%;
+        left: 40%;
+    }
+    #awwwards a.btnthird {
+        bottom: 15%;
+        left: 65%;
+    }
+}
